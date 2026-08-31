@@ -1,0 +1,6 @@
+### Probar registro
+
+POST http://localhost:8080/json.php
+Content-Type: application/x-www-form-urlencoded
+
+user=Cristian&email=kmartinorozco@gmail.com&psw=123456

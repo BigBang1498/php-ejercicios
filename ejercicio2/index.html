@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <h1>Formulario de inscripción al curso</h1>
+    <form action="index.php" method="post">
+        <label for="">Ingresa tu nombre completo: </label><br>
+        <input type="text" name="nombre"><br>
+        <label for="">Ingresa tu correo electronico: </label><br>
+        <input type="email" name="correo" id=""><br>
+        <label for="">Ingresa tu número de teléfono: </label><br>
+        <input type="number" name="telefono" id=""><br>
+        <label for="">Selecciona la modalidad: </label><br>
+        <select name="modalidad" id="">
+            <option value="">Selecciona una opción...</option>
+            <option value="En linea">En linea</option>
+            <option value="Presencial">Presencial</option>
+            <option value="Hibrido">Hibrido</option>
+        </select><br>
+        <label for="">Selecciona los cursos: </label><br>
+        <label for="ingles">Ingles: </label><input type="checkbox" name="curso[]" value="ingles" id="ingles"><br>
+        <label for="programacion">Programación: </label><input type="checkbox" name="curso[]" value="programacion" id="programacion"><br>
+        <label for="musica">Música: </label><input type="checkbox" name="curso[]" value="musica" id="musica"><br>
+        <label for="defensa">Defensa personal: </label><input type="checkbox" name="curso[]" value="defensa personal" id="defensa"><br>
+        <button type="submit">Enviar: </button>
+    </form>
+</body>
+</html>
