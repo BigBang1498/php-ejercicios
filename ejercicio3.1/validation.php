@@ -36,7 +36,7 @@
                     }
                 }
                 if ( $bandera === true ) {
-                    header( "Location: dashboard.php    ?validation=true" );
+                    header( "Location: dashboard.php?validation=true" );
                     exit;
                 } else {
                     echo "Usuario no valido";
